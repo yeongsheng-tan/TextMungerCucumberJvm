@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.891" errors="0" skipped="0" tests="20" name="SimpleTextMunger_Test">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_15\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspace_tdd\TextMungerCucumberJvm"/>
+    <property name="java.runtime.version" value="1.7.0_15-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_15\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\nbdqxmt\LOCALS~1\temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="classworlds.conf" value="C:\workspace_tdd\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf4124596357284172836.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Oracle\10.2.0\bin;C:\Program Files\Sybase\OLEDB;C:\Program Files\Sybase\odbc;C:\Program Files\Sybase\ocs-12_5\dll;C:\Program Files\Sybase\OCS-12_5\lib3p;C:\Program Files\Sybase\ocs-12_5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\MLTOOLS\;C:\Services\Tools\;C:\PROGRA~1\CA\SC\CAM\bin;c:\Program Files\Tibco\Rendezvous\BIN;C:\Program Files\Softricity\SoftGrid for Windows Desktops;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\PKWARE\PKZIPC;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\sdks\scala\\bin;C:\Program Files\TortoiseHg\;%APPDATA%\Python\Scripts;C:\Program Files\Java\jdk1.7.0_15\bin;C:\sdks\apache-maven-3.0.4\bin;C:\sdks\apache-ant-1.8.4\bin;C:\sdks\groovy-2.1.0\bin;C:\sdks\grails-2.2.0\bin;C:\sdks\gradle-1.4\bin;%PYTHON_HOME%;%PYTHON_HOME%\Scripts;C:\Documents and Settings\nbdqxmt\apps\Git\bin;C:\Documents and Settings\nbdqxmt\apps\Subversion\bin;C:\sdks\pik;C:\Documents and Settings\nbdqxmt\apps\TortoiseSVN\bin;C:\Documents and Settings\nbdqxmt\apps\TortoiseGit\bin;C:\Documents and Settings\nbdqxmt\apps\TortoiseHg\;C:\Documents and Settings\nbdqxmt\apps\Mercurial;C:\sdks\jruby-1.7.3\bin;C:\sdks\Ruby193\bin;%RAILS_INSTALLER_HOME%\Ruby1.9.3\bin;%RAILS_INSTALLER_HOME%\Git\cmd;%VERTX_HOME%\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="H:\apps\xp"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nbdqxmt"/>
+    <property name="java.class.path" value="/C:/Documents and Settings/nbdqxmt/apps/ggts3.2.0M2/ggts-3.2.0.M2/configuration/org.eclipse.osgi/bundles/930/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_15\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\sdks\apache-maven-3.0.4\conf\settings.xml clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_15"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_15\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_15\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\workspace_tdd\TextMungerCucumberJvm\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0" classname="| \&quot;a\&quot; | \&quot;a\&quot; |" name="Given I have an instance of my class"/>
+  <testcase time="0" classname="| \&quot;a\&quot; | \&quot;a\&quot; |" name="When I call my method with \&quot;a\&quot;"/>
+  <testcase time="0" classname="| \&quot;a\&quot; | \&quot;a\&quot; |" name="Then I receive \&quot;a\&quot;"/>
+  <testcase time="0" classname="| \&quot;a\&quot; | \&quot;a\&quot; |" name="| \&quot;a\&quot; | \&quot;a\&quot; |"/>
+  <testcase time="0" classname="| \&quot;an\&quot; | \&quot;an\&quot; |" name="Given I have an instance of my class"/>
+  <testcase time="0" classname="| \&quot;an\&quot; | \&quot;an\&quot; |" name="When I call my method with \&quot;an\&quot;"/>
+  <testcase time="0" classname="| \&quot;an\&quot; | \&quot;an\&quot; |" name="Then I receive \&quot;an\&quot;"/>
+  <testcase time="0" classname="| \&quot;an\&quot; | \&quot;an\&quot; |" name="| \&quot;an\&quot; | \&quot;an\&quot; |"/>
+  <testcase time="0" classname="| \&quot;and\&quot; | \&quot;and\&quot; |" name="Given I have an instance of my class"/>
+  <testcase time="0" classname="| \&quot;and\&quot; | \&quot;and\&quot; |" name="When I call my method with \&quot;and\&quot;"/>
+  <testcase time="0" classname="| \&quot;and\&quot; | \&quot;and\&quot; |" name="Then I receive \&quot;and\&quot;"/>
+  <testcase time="0" classname="| \&quot;and\&quot; | \&quot;and\&quot; |" name="| \&quot;and\&quot; | \&quot;and\&quot; |"/>
+  <testcase time="0" classname="| \&quot;spice\&quot; | \&quot;scipe\&quot; |" name="Given I have an instance of my class"/>
+  <testcase time="0" classname="| \&quot;spice\&quot; | \&quot;scipe\&quot; |" name="When I call my method with \&quot;spice\&quot;"/>
+  <testcase time="0" classname="| \&quot;spice\&quot; | \&quot;scipe\&quot; |" name="Then I receive \&quot;scipe\&quot;"/>
+  <testcase time="0" classname="| \&quot;spice\&quot; | \&quot;scipe\&quot; |" name="| \&quot;spice\&quot; | \&quot;scipe\&quot; |"/>
+  <testcase time="0" classname="Scenario: It should process a sentence" name="Given I have an instance of my class"/>
+  <testcase time="0" classname="Scenario: It should process a sentence" name="When I call my method with \&quot;And the spice must flow\&quot;"/>
+  <testcase time="0" classname="Scenario: It should process a sentence" name="Then I receive \&quot;And the scipe msut folw\&quot;"/>
+  <testcase time="0" classname="Scenario: It should process a sentence" name="Scenario: It should process a sentence"/>
+</testsuite>
